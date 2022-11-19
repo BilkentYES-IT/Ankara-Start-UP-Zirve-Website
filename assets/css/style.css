@@ -1579,6 +1579,32 @@ p {
 
 /* ------------Sponsor Css---------------- */
 
+/* Daimi Sponsor */
+#daimisponsor img{
+  align-items: right;
+  margin-bottom: 100px;
+}
+#daimisponsor img{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+  width: 700px;
+}
+#daimisponsor{
+  text-align: left;
+  margin-bottom: 100px;
+}
+#stratejikpartner{
+  margin-right: 150px;
+  text-align: right;
+  margin-bottom: 100px;
+}
+#daimisponsor>h3{
+  margin-left: 150px;
+  color: #58c8df;
+  font-size: 50px;
+}
+
 /* Main Sponsor */
 #mainsponsor img{
   margin-top: 70px;
