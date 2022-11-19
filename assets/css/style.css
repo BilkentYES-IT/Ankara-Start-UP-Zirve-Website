@@ -1605,16 +1605,29 @@ p {
   font-size: 50px;
 } */
 #cyber-ato{
-  display: flex;
   justify-content: space-around;
+  display: flex;
+  
 }
 #daimisponsor img{
-  width: 650px;
+  width: 550px;
  margin: 60px 20px 100px 40px;
+}
+#stratejik img{
+  align-items: right;
+  width: 550px;
+ margin: 3px 20px 100px 20px;
+}
+
+.stratejik{
+  align-items: right;
+  margin-left: 100px;
+  color: rgba(16, 43, 175, 0.85);
+  font-size: 50px;
 }
 
 #daimisponsor h3{
-  margin-left: 150px;
+  margin-left: 30px;
   color: rgba(16, 43, 175, 0.85);
   font-size: 50px;
 }
