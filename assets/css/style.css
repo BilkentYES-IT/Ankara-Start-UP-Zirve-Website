@@ -1575,3 +1575,60 @@ p {
   .back-to-top:hover {
     color: #fff;
     background-position: right center; }
+
+
+/* ------------Sponsor Css---------------- */
+
+/* Main Sponsor */
+#mainsponsor img{
+  margin-top: 70px;
+  width: 600px;
+}
+#mainsponsor{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#mainsponsor>h3{
+  color: #58c8df;
+  font-size: 50px;
+}
+/* Gold Sponsor */
+#goldsponsor img{
+  margin-top: 60px;
+  width: 400px;
+}
+#goldsponsor{
+  text-align: center;
+}
+#goldsponsor>h3{
+  font-size: 50px;
+  color: #ffd700;
+}
+/* Silver Sponsor */
+#silversponsor{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#silversponsor img{
+  width: 300px;
+}
+#gumussponsor{
+  margin: 60px 0px;
+  font-size: 50px;
+  color: #C0C0C0;
+  text-align: center;
+}
+/* Bronz Sponsor */
+#bronzsponsor{
+  text-align: center;
+}
+#bronzsponsor h3{
+  margin: 60px 0px;
+  font-size: 50px;
+  color: #cd7f32;
+}
+#bronzsponsor img{
+  width: 250px;
+}
+
