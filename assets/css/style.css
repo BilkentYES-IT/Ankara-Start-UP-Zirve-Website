@@ -1605,7 +1605,7 @@ p {
   font-size: 50px;
 } */
 #cyber-ato{
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
   
 }
@@ -1619,15 +1619,11 @@ p {
  margin: 3px 20px 100px 20px;
 }
 
-.stratejik{
-  align-items: right;
-  margin-left: 100px;
-  color: rgba(16, 43, 175, 0.85);
-  font-size: 50px;
-}
+
 
 #daimisponsor h3{
-  margin-left: 30px;
+  margin-left: 80px;
+  margin-right:  450px;
   color: rgba(16, 43, 175, 0.85);
   font-size: 50px;
 }
