@@ -1604,28 +1604,21 @@ p {
   color: #58c8df;
   font-size: 50px;
 } */
-#cyber-ato{
-  justify-content: space-between;
+
+/* Daimi ve Stratejik Sponsor */
+#daimi{
   display: flex;
-  
+  justify-content: space-evenly;
+  align-items: center;
 }
-#daimisponsor img{
-  width: 550px;
- margin: 60px 20px 100px 40px;
+#daimi img{
+  width: 650px;
 }
-#stratejik img{
-  align-items: right;
-  width: 550px;
- margin: 3px 20px 100px 20px;
-}
-
-
-
-#daimisponsor h3{
-  margin-left: 80px;
-  margin-right:  450px;
-  color: rgba(16, 43, 175, 0.85);
+#daimisponsor{
+  margin: 60px 0px;
   font-size: 50px;
+  color: #102baf;
+  text-align: center;
 }
 
 /* Main Sponsor */
