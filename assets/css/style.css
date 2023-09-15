@@ -1621,10 +1621,19 @@ p {
   text-align: center;
 }
 
+.innerCont{
+  height: 480px;
+  display: flex;
+  align-items: center;
+}
+
 /* Main Sponsor */
 #mainsponsor img{
-  margin-top: 70px;
+  margin-top: 10vh;
   width: 600px;
+}
+#mainsponsortext{
+  margin-top: 5vh;
 }
 #mainsponsor{
   text-align: center;
