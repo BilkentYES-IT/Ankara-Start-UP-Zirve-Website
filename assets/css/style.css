@@ -734,16 +734,16 @@ p {
         margin-top: 0; } }
   .header-countdown .single-count-content.count-color-1 .count,
   .header-countdown .single-count-content.count-color-1 .text {
-    color: #ee163a; }
+    color: #ffffff; }
   .header-countdown .single-count-content.count-color-2 .count,
   .header-countdown .single-count-content.count-color-2 .text {
-    color: #ffc107; }
+    color: #ffffff; }
   .header-countdown .single-count-content.count-color-3 .count,
   .header-countdown .single-count-content.count-color-3 .text {
-    color: #03a9f4; }
+    color: #ffffff; }
   .header-countdown .single-count-content.count-color-4 .count,
   .header-countdown .single-count-content.count-color-4 .text {
-    color: #8bc34a; }
+    color: #ffffff; }
 
 .header-content {
   margin-top: 60px; }
