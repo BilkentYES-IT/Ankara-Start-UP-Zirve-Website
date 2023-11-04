@@ -1606,6 +1606,9 @@ p {
 } */
 
 /* Daimi ve Stratejik Sponsor */
+#daimiSponsorDiv{
+  margin-top: 10vh;
+}
 #daimi{
   display: flex;
   justify-content: space-evenly;
@@ -1629,31 +1632,37 @@ p {
 
 /* Main Sponsor */
 #mainsponsor img{
-  margin-top: 10vh;
   width: 600px;
 }
+
 #mainsponsortext{
-  margin-top: 5vh;
-}
-#mainsponsor{
+  margin-top: 2vh;
   text-align: center;
-  margin-bottom: 100px;
-}
-#mainsponsor>h3{
   color: #58c8df;
   font-size: 50px;
 }
+#mainsponsor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 5vh;
+}
+
 /* Gold Sponsor */
 #goldsponsor img{
-  margin-top: 60px;
   width: 400px;
 }
-#goldsponsor{
-  text-align: center;
-}
-#goldsponsor>h3{
+#goldsponsortext{
   font-size: 50px;
   color: #ffd700;
+  text-align: center;
+}
+#goldsponsor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 /* Silver Sponsor */
 #silversponsor{
@@ -1662,24 +1671,61 @@ p {
   align-items: center;
 }
 #silversponsor img{
-  width: 300px;
+  width: 40vh;
 }
 #gumussponsor{
-  margin: 60px 0px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   font-size: 50px;
   color: #C0C0C0;
   text-align: center;
+
 }
 /* Bronz Sponsor */
-#bronzsponsor{
+#odulsponsor{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
-#bronzsponsor h3{
-  margin: 60px 0px;
+#odulheading{
+  margin: 20px 0px;
   font-size: 50px;
   color: #cd7f32;
 }
-#bronzsponsor img{
+#odulsponsor img{
   width: 250px;
 }
+#odulSponsorDiv{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.odulS{
+  margin: 5vh 0;
+}
+
+/* CSS to add a fancy border to each sponsor div */
+#daimiSponsorDiv,
+#mainSponsorDiv,
+#goldsponsorDiv,
+#silverSponsorDiv,
+#odulSponsorDiv {
+  border-top: 2px solid #3498db; /* Example border style: solid with a blue color */
+  border-radius: 10px; /* Example border radius to make it rounded */
+  padding: 15px; /* Add padding to the divs */
+  margin-bottom: 20px;
+  border-collapse: collapse; /* Add margin to separate the divs */
+  /* Add any other styling as per your preference */
+}
+
+#odulSponsorDiv{
+  border-bottom: 2px solid #3498db;
+  border-radius: 10px; /* Example border radius to make it rounded */
+  padding: 15px; /* Add padding to the divs */
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
 
