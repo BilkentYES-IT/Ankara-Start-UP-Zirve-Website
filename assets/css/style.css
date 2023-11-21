@@ -1695,7 +1695,7 @@ p {
   color: #cd7f32;
 }
 #odulsponsor img{
-  width: 250px;
+  width: 30vh;
 }
 #odulSponsorDiv{
   text-align: center;
@@ -1711,7 +1711,8 @@ p {
 #mainSponsorDiv,
 #goldsponsorDiv,
 #silverSponsorDiv,
-#odulSponsorDiv {
+#odulSponsorDiv,
+#medyaSponsorDiv {
   border-top: 2px solid #3498db; /* Example border style: solid with a blue color */
   border-radius: 10px; /* Example border radius to make it rounded */
   padding: 15px; /* Add padding to the divs */
@@ -1720,12 +1721,28 @@ p {
   /* Add any other styling as per your preference */
 }
 
-#odulSponsorDiv{
+#odulSponsorDiv,
+#medyasponsorDiv{
   border-bottom: 2px solid #3498db;
-  border-radius: 10px; /* Example border radius to make it rounded */
-  padding: 15px; /* Add padding to the divs */
-  margin-bottom: 20px;
-  border-collapse: collapse;
 }
 
+#medyasponsortext{
+  font-size: 50px;
+  color: #024dff;
+  text-align: center;
+  margin: 20px 0px;
+}
+#medyasponsor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 50%;
+}
+#medyasponsor img{
+  width: 30vh;
+}
+#medyasponsorDiv{
+  height: 30vh;
+}
 
